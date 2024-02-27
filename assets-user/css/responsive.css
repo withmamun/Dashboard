@@ -1,0 +1,847 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .review__img__blk {
+        width: 150px;
+    }
+
+    .review__content p {
+        font-size: 13px;
+    }
+
+    .review__content h4 {
+        font-size: 18px;
+    }
+
+    .review__content a {
+        width: 118px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .dashboard__wrap .nav-link {
+        font-size: 14px;
+    }
+
+    .dashboard__wrap .nav {
+        gap: 16px;
+        width: 200px;
+        padding: 40px 14px;
+    }
+
+    .dashboard__wrap .tab-content {
+        width: calc(100% - 200px);
+    }
+
+    .dashboard__user__profile {
+        padding: 40px 15px;
+    }
+
+    .dashboard__user__title p {
+        font-size: 26px;
+    }
+
+    .dashboard__user__title {
+        margin-bottom: 15px;
+    }
+
+    .dashboard__profile__content span {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .dashboard__profile__content h4 {
+        font-size: 26px;
+    }
+
+    .dashboard__profile__single {
+        padding: 20px;
+    }
+
+    .dashboard__user__info__single h4 {
+        font-size: 20px;
+    }
+
+    .dashboard__user__info__single ul li {
+        font-size: 14px;
+    }
+
+    .dashboard__user__info__single ul {
+        gap: 10px;
+    }
+
+    .dashboard__user__info__wrap {
+        padding: 40px 30px;
+    }
+
+    .dashboard__profile__ico span {
+        background-color: #fff;
+        width: 60px;
+        height: 48px;
+        font-size: 25px;
+    }
+
+    .dashboard__personal__info {
+        padding: 40px 15px;
+        gap: 40px;
+    }
+
+    .personal__form__single label {
+        font-size: 14px;
+    }
+
+    .personal__form__single input {
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .form-select {
+        padding: 10px 35px 10px 15px;
+        font-size: 14px;
+    }
+
+    .payment__content h4 {
+        font-size: 20px;
+    }
+
+    .address__single__blk h4 {
+        font-size: 20px;
+    }
+
+    .address__single__blk ul {
+        gap: 10px;
+    }
+
+    .address__single__blk ul li {
+        font-size: 14px;
+    }
+
+    .review__single__blk {
+        gap: 10px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .review__img__blk {
+        width: 70%;
+    }
+
+    .review__content h4 {
+        font-size: 20px;
+    }
+
+    .review__content p {
+        font-size: 14px;
+    }
+
+    .review__content a {
+        width: 124px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .review__main__blk {
+        gap: 20px;
+    }
+
+    .help__report p {
+        font-size: 13px;
+    }
+
+    .order__wrap td:nth-child(3) {
+        width: 280px;
+    }
+
+    .help__time span {
+        font-size: 13px;
+    }
+
+    .help__serial span {
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .dashboard__wrap .nav-link {
+        font-size: 13px;
+    }
+
+    .dashboard__wrap .nav {
+        gap: 15px;
+        width: 185px;
+        padding: 30px 15px;
+    }
+
+    .dashboard__wrap .tab-content {
+        width: calc(100% - 185px);
+    }
+
+    .dashboard__user__profile {
+        padding: 30px 10px;
+    }
+
+    .dashboard__user__title p {
+        font-size: 22px;
+    }
+
+    .dashboard__user__title h2 {
+        font-size: 14px;
+    }
+
+    .dashboard__user__title {
+        margin-bottom: 14px;
+    }
+
+    .dashboard__profile__ico span {
+        width: 58px;
+        height: 42px;
+        font-size: 22px;
+    }
+
+    .dashboard__profile__ico {
+        margin-bottom: 14px;
+    }
+
+    .dashboard__profile__content span {
+        font-size: 17px;
+    }
+
+    .dashboard__profile__content h4 {
+        font-size: 28px;
+    }
+
+    .dashboard__profile__single {
+        padding: 20px;
+    }
+
+    .dashboard__user__info__wrap {
+        padding: 30px 20px;
+    }
+
+    .dashboard__user__info__single h4 {
+        font-size: 18px;
+    }
+
+    .dashboard__user__info__single ul li {
+        font-size: 13px;
+    }
+
+    .dashboard__user__info__single ul {
+        gap: 12px;
+    }
+
+    .dashboard__user__info__single ul li span {
+        width: 54px;
+    }
+
+    .dashboard__personal__info {
+        padding: 30px 10px;
+        gap: 20px;
+    }
+
+    .personal__form__single label {
+        font-size: 14px;
+    }
+
+    .personal__form__single input {
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .form-select {
+        padding: 9px 35px 9px 15px;
+        font-size: 14px;
+    }
+
+    .personal__photo__info p {
+        font-size: 14px;
+    }
+
+    .personal__photo__info h4 {
+        font-size: 18px;
+    }
+
+    .payment__wrap {
+        padding: 30px 10px;
+    }
+
+    .payment__img {
+        width: 90px;
+    }
+
+    .payment__content h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .payment__content p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .payment__content span {
+        font-size: 13px;
+    }
+
+    .payment__left__blk {
+        gap: 14px;
+    }
+
+    .payment__manage button {
+        width: 110px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+    .payment__single__blk {
+        padding: 20px 0px;
+    }
+
+    .order__wrap {
+        padding: 30px 10px;
+    }
+
+    .order__wrap th {
+        font-size: 13px;
+        padding: 15px !important;
+    }
+
+    .order__product__info span {
+        width: 70px;
+        height: 70px;
+    }
+
+    .order__product__info h4 {
+        font-size: 14px;
+    }
+
+    .order__product__info {
+        gap: 10px;
+        padding: 4px 8px;
+        text-align: left;
+    }
+
+    .order__product__price span {
+        font-size: 13px;
+    }
+
+    .order__total__price span {
+        font-size: 13px;
+    }
+
+    .order__remove span {
+        font-size: 18px;
+    }
+
+    .order__remove {
+        padding: 0px 27px;
+    }
+
+    .order__wrap .nice-number {
+        padding: 4px 6px;
+    }
+
+    .address__wrap {
+        padding: 30px 10px;
+    }
+
+    .address__single__blk h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .address__single__blk ul {
+        gap: 8px;
+    }
+
+    .address__single__blk ul li {
+        font-size: 13px;
+    }
+
+    .address__single__blk ul li span {
+        width: 56px;
+    }
+
+    .address__single__blk {
+        padding: 30px 20px;
+    }
+
+    .address__add__btn button {
+        width: 154px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .review__wrap {
+        padding: 30px 10px;
+    }
+
+    .review__single__blk {
+        gap: 5px;
+        padding: 15px;
+        border-radius: 6px;
+        flex-direction: column;
+    }
+
+    .review__img__blk {
+        width: 65%;
+    }
+
+    .review__content span {
+        font-size: 13px;
+    }
+
+    .review__content h4 {
+        font-size: 18px;
+    }
+
+    .review__content p {
+        font-size: 13px;
+    }
+
+    .review__content a {
+        width: 110px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+    .review__main__blk {
+        gap: 15px;
+    }
+
+    .password__single__blk input {
+        width: 90%;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .password__single__blk label {
+        font-size: 14px;
+    }
+
+    .password__btn__blk button:first-child {
+        width: 150px;
+        height: 42px;
+        font-size: 12px;
+    }
+
+    .password__btn__blk button:last-child {
+        font-size: 13px;
+    }
+
+    .password__wrap {
+        padding: 30px 10px;
+    }
+
+    .help__serial span {
+        font-size: 13px;
+    }
+
+    .help__time span {
+        font-size: 13px;
+    }
+
+    .help__report p {
+        font-size: 13px;
+    }
+
+    .order__wrap td:nth-child(3) {
+        width: 250px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .dashboard__wrap .nav-link {
+        font-size: 14px;
+    }
+
+    .dashboard__wrap .nav {
+        gap: 22px;
+        width: 100%;
+        padding: 30px 15px;
+        position: unset;
+        flex-wrap: wrap;
+        margin-right: 0 !important;
+        flex-direction: unset !important;
+        height: auto;
+    }
+
+    .dashboard__wrapper__mob {
+        flex-direction: column;
+    }
+
+    .dashboard__wrap .tab-content {
+        width: 100%;
+    }
+
+    .dashboard__user__profile {
+        padding: 30px 10px;
+    }
+
+    .dashboard__user__title p {
+        font-size: 22px;
+    }
+
+    .dashboard__user__title h2 {
+        font-size: 14px;
+    }
+
+    .dashboard__user__title {
+        margin-bottom: 14px;
+    }
+
+    .dashboard__profile__ico span {
+        width: 58px;
+        height: 42px;
+        font-size: 22px;
+    }
+
+    .dashboard__profile__ico {
+        margin-bottom: 14px;
+    }
+
+    .dashboard__profile__content span {
+        font-size: 17px;
+    }
+
+    .dashboard__profile__content h4 {
+        font-size: 28px;
+    }
+
+    .dashboard__profile__single {
+        padding: 20px;
+    }
+
+    .dashboard__user__info__wrap {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+
+    .dashboard__user__devider {
+        height: 1px;
+        width: 100%;
+    }
+
+    .dashboard__user__info__single h4 {
+        font-size: 18px;
+    }
+
+    .dashboard__user__info__single ul li {
+        font-size: 13px;
+    }
+
+    .dashboard__user__info__single ul {
+        gap: 12px;
+    }
+
+    .dashboard__user__info__single ul li span {
+        width: 54px;
+    }
+
+    .dashboard__personal__info {
+        padding: 30px 10px;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .personal__info__right {
+        grid-row: 1;
+    }
+
+    .personal__info__left {
+        grid-row: 2;
+    }
+
+    .personal__form__single label {
+        font-size: 14px;
+    }
+
+    .personal__form__single input {
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .form-select {
+        padding: 9px 35px 9px 15px;
+        font-size: 14px;
+    }
+
+    .personal__photo__info p {
+        font-size: 14px;
+    }
+
+    .personal__photo__info h4 {
+        font-size: 18px;
+    }
+
+    .payment__wrap {
+        padding: 10px 10px;
+        padding-bottom: 30px !important;
+    }
+
+    .payment__img {
+        width: 90px;
+    }
+
+    .payment__content h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .payment__content p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .payment__content span {
+        font-size: 13px;
+    }
+
+    .payment__left__blk {
+        gap: 14px;
+    }
+
+    .payment__manage button {
+        width: 110px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+    .payment__single__blk {
+        padding: 15px 0px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .order__wrap {
+        padding: 10px 10px;
+        overflow-y: scroll;
+    }
+
+    .order__wrap .table {
+        width: 600px;
+    }
+
+    .order__wrap th {
+        font-size: 13px;
+        padding: 15px !important;
+    }
+
+    .order__product__info span {
+        width: 70px;
+        height: 70px;
+    }
+
+    .order__product__info h4 {
+        font-size: 14px;
+    }
+
+    .order__product__info {
+        gap: 10px;
+        padding: 4px 8px;
+        text-align: left;
+    }
+
+    .order__product__price span {
+        font-size: 13px;
+    }
+
+    .order__total__price span {
+        font-size: 13px;
+    }
+
+    .order__remove span {
+        font-size: 18px;
+    }
+
+    .order__remove {
+        padding: 0px 27px;
+    }
+
+    .order__wrap .nice-number {
+        padding: 4px 6px;
+    }
+
+    .address__wrap {
+        padding: 10px 10px;
+    }
+
+    .address__main__blk {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .address__single__blk h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .address__single__blk ul {
+        gap: 8px;
+    }
+
+    .address__single__blk ul li {
+        font-size: 13px;
+    }
+
+    .address__single__blk ul li span {
+        width: 56px;
+    }
+
+    .address__single__blk {
+        padding: 30px 20px;
+    }
+
+    .address__add__btn button {
+        width: 154px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .review__wrap {
+        padding: 30px 10px;
+    }
+
+    .review__single__blk {
+        gap: 5px;
+        padding: 15px;
+        border-radius: 6px;
+        flex-direction: column;
+    }
+
+    .review__img__blk {
+        width: 65%;
+    }
+
+    .review__content span {
+        font-size: 13px;
+    }
+
+    .review__content h4 {
+        font-size: 18px;
+    }
+
+    .review__content p {
+        font-size: 13px;
+    }
+
+    .review__content a {
+        width: 110px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+    .review__main__blk {
+        gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .password__single__blk input {
+        width: 100%;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .password__single__blk label {
+        font-size: 14px;
+    }
+
+    .password__btn__blk button:first-child {
+        width: 150px;
+        height: 42px;
+        font-size: 12px;
+    }
+
+    .password__btn__blk button:last-child {
+        font-size: 13px;
+    }
+
+    .password__wrap {
+        padding: 30px 10px;
+    }
+
+    .help__serial span {
+        font-size: 13px;
+    }
+
+    .help__time span {
+        font-size: 13px;
+    }
+
+    .help__report p {
+        font-size: 13px;
+    }
+
+    .order__wrap td:nth-child(3) {
+        width: 250px;
+    }
+
+    .password__main__blk {
+        grid-template-columns: 1fr;
+    }
+
+    .password__img__blk {
+        grid-row: 1;
+        text-align: center;
+    }
+
+    .password__img__blk img {
+        width: 54%;
+        max-width: 100%;
+    }
+
+}
+
+
+
+
+
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .payment__single__blk {
+        flex-direction: row;
+    }
+
+    .review__main__blk {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

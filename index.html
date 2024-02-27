@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets-user/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets-user/css/all.min.css" rel="stylesheet" />
+    <link href="assets-user/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets-user/css/jquery.nice-number.min.css" rel="stylesheet" />
+    <link href="assets-user/css/style.css" rel="stylesheet" />
+    <link href="assets-user/css/responsive.css" rel="stylesheet" />
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+
+    <!--------- Main area start --------->
+    <main class="main overflow-hidden">
+
+        <!--------- Dashboard area start --------->
+        <section class="dashboard__area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="dashboard__wrap">
+                            <div class="dashboard__wrapper__mob d-flex align-items-start">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-home" type="button" role="tab"
+                                        aria-controls="v-pills-home" aria-selected="true"><i
+                                            class="fas fa-th-large"></i>Dashboard</button>
+                                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-profile" type="button" role="tab"
+                                        aria-controls="v-pills-profile" aria-selected="false"><i
+                                            class="fas fa-user"></i>Parsonal Info</button>
+                                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-messages" type="button" role="tab"
+                                        aria-controls="v-pills-messages" aria-selected="false"><i
+                                            class="fas fa-money-check-alt"></i>Payment Method</button>
+                                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-settings" type="button" role="tab"
+                                        aria-controls="v-pills-settings" aria-selected="false"><i
+                                            class="fas fa-shopping-cart"></i>Order</button>
+                                    <button class="nav-link" id="v-pills-settings-tab2" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-settings2" type="button" role="tab"
+                                        aria-controls="v-pills-settings2" aria-selected="false"><i
+                                            class="fas fa-heart"></i>Wishlist</button>
+                                    <button class="nav-link" id="v-pills-settings-tab3" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-settings3" type="button" role="tab"
+                                        aria-controls="v-pills-settings3" aria-selected="false"><i
+                                            class="fas fa-address-book"></i>Address</button>
+                                    <button class="nav-link" id="v-pills-settings-tab4" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-settings4" type="button" role="tab"
+                                        aria-controls="v-pills-settings4" aria-selected="false"><i
+                                            class="fas fa-comments-alt"></i>Reviews</button>
+                                    <button class="nav-link" id="v-pills-settings-tab5" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-settings5" type="button" role="tab"
+                                        aria-controls="v-pills-settings5" aria-selected="false"><i
+                                            class="fas fa-lock"></i>Change Password</button>
+                                    <button class="nav-link" id="v-pills-settings-tab6" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-settings6" type="button" role="tab"
+                                        aria-controls="v-pills-settings6" aria-selected="false"><i
+                                            class="fas fa-headset"></i>Help Line</button>
+                                    <button class="nav-link logout__btn"><i
+                                            class="fas fa-sign-out-alt"></i>Logout</button>
+                                </div>
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                        aria-labelledby="v-pills-home-tab">
+                                        <div class="dashboard__user__profile">
+                                            <div class="dashboard__user__title">
+                                                <h2>Hello, Sajjad</h2>
+                                                <p>Welcome to your Profile</p>
+                                            </div>
+                                            <div class="dashboard__profile__main">
+                                                <div class="row g-4">
+                                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                                        <div class="dashboard__profile__single">
+                                                            <div class="dashboard__profile__ico">
+                                                                <span><i class="fas fa-luggage-cart"></i></span>
+                                                            </div>
+                                                            <div class="dashboard__profile__content">
+                                                                <span>New Orders</span>
+                                                                <h4>656</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                                        <div class="dashboard__profile__single">
+                                                            <div class="dashboard__profile__ico">
+                                                                <span><i class="fas fa-truck-container"></i></span>
+                                                            </div>
+                                                            <div class="dashboard__profile__content">
+                                                                <span>Delivery Completed</span>
+                                                                <h4>99783</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                                        <div class="dashboard__profile__single">
+                                                            <div class="dashboard__profile__ico">
+                                                                <span><i class="fas fa-headset"></i></span>
+                                                            </div>
+                                                            <div class="dashboard__profile__content">
+                                                                <span>Help Line</span>
+                                                                <h4>09</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="dashboard__user__info__wrap">
+                                                            <div class="dashboard__user__info__single">
+                                                                <h4>Personal Information</h4>
+                                                                <ul>
+                                                                    <li><span>Name:</span>Sajjad</li>
+                                                                    <li><span>Email:</span>demoemail@gmail.com</li>
+                                                                    <li><span>Phone:</span>023 434 54354</li>
+                                                                    <li><span>City:</span>Haydarabad, Rord 34</li>
+                                                                    <li><span>Zip:</span>3454</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="dashboard__user__devider"></div>
+                                                            <div class="dashboard__user__info__single">
+                                                                <h4>Shop Information</h4>
+                                                                <ul>
+                                                                    <li><span>Name:</span>EcoShop Super-Shop</li>
+                                                                    <li><span>Email:</span>demoemail@gmail.com</li>
+                                                                    <li><span>Phone:</span>023 434 54354</li>
+                                                                    <li><span>City:</span>Haydarabad, Rord 34</li>
+                                                                    <li><span>Zip:</span>3454</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                        aria-labelledby="v-pills-profile-tab">
+                                        <div class="dashboard__personal__info">
+                                            <div class="personal__info__left">
+                                                <form action="">
+                                                    <div class="row g-4">
+                                                        <div class="col-lg-6">
+                                                            <div class="personal__form__single">
+                                                                <label for="">First Name*</label>
+                                                                <input type="text" name="" placeholder="First Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="personal__form__single">
+                                                                <label for="">Last Name*</label>
+                                                                <input type="text" name="" placeholder="Last Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="personal__form__single">
+                                                                <label for="">Email*</label>
+                                                                <input type="email" name=""
+                                                                    placeholder="user@gmail.com">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="personal__form__single">
+                                                                <label for="">Phone*</label>
+                                                                <input type="text" placeholder="+880388**0899">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="personal__form__single">
+                                                                <label for="">Country*</label>
+                                                                <select class="form-select"
+                                                                    aria-label="Default select example">
+                                                                    <option selected>Choose...</option>
+                                                                    <option value="1">Bangladesh</option>
+                                                                    <option value="2">United States</option>
+                                                                    <option value="3">United Kingdom</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="personal__form__single">
+                                                                <label for="">Address*</label>
+                                                                <input type="text" placeholder="Enter your Address">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="personal__form__single">
+                                                                <label for="">Town / City*</label>
+                                                                <select class="form-select"
+                                                                    aria-label="Default select example">
+                                                                    <option selected>Choose...</option>
+                                                                    <option value="1">Dhaka</option>
+                                                                    <option value="2">New york</option>
+                                                                    <option value="3">London</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="personal__form__single">
+                                                                <label for="">Postcode / ZIP*</label>
+                                                                <input type="text" placeholder="0000">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="personal__form__btn">
+                                                                <button>Update Profile</button>
+                                                                <button>Cancel</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="personal__info__right">
+                                                <div class="personal__photo__info">
+                                                    <h4>Update Logo</h4>
+                                                    <p>Size300x300. Gifs work too.Max 5mb.</p>
+                                                </div>
+                                                <div class="upload__inner__blk">
+                                                    <div class="upload__profile">
+                                                        <div class="imageWrapper">
+                                                            <img class="imagewrapper__demo"
+                                                                src="assets-user/img/upload.jpg" alt="">
+                                                            <img class="image"
+                                                                src="https://ucec9a5413f8e64536cdf28fb573.previews.dropboxusercontent.com/p/thumb/ABvzI35iAs6L0n7UCOa6CUw5BmQjyNWd46p53S4PmM4fEgEDCRqh2m1NF2_EwAR2ObeA-pic02TFT6HnxdtiJsgJgkUebjsvldRuYt8DISdNS1KA7Fth5zwpJGedLuSZNYFXUWaM2ceJdqDnyt4LhCuyUNsI-b26NyFC4-qHdCzG_27FNOoZGn1Sh_lDERU4XI84QicuAqyhEZ2wA0gNjBZ-HsbqSp7_IVjHpGV_ZHVy4RhYCUScqj5CTmBr0R-pzVaP3hZIk8THcW-zO41jdqkWrL4l1YwtAwwAbFxoRV1S8EdtcTvdv2Z8RgMHzUkjkHEXloSETNdYi4ZG06pSl7zY9AC2TN3lNJTt5WnURUlE1UHngvjdZqsLK9xjwHNm5d_bnRwJAjaCCLc2cwKuca2VHi6_p5bc6FBAe_cjMTIbTA/p.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uplo_content">
+                                                        <button class="file-upload">
+                                                            <input type="file" class="file-input"><i
+                                                                class="fas fa-pencil-alt"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                        aria-labelledby="v-pills-messages-tab">
+                                        <div class="payment__wrap">
+                                            <div class="payment__single__blk">
+                                                <div class="payment__left__blk">
+                                                    <div class="payment__img">
+                                                        <img src="assets-user/img/pay1.png" alt="">
+                                                    </div>
+                                                    <div class="payment__content">
+                                                        <h4>Master Card</h4>
+                                                        <p>Bank **********5535</p>
+                                                        <span>Verified</span>
+                                                    </div>
+                                                </div>
+                                                <div class="payment__manage">
+                                                    <button>Manage</button>
+                                                </div>
+                                            </div>
+                                            <div class="payment__single__blk">
+                                                <div class="payment__left__blk">
+                                                    <div class="payment__img">
+                                                        <img src="assets-user/img/pay2.png" alt="">
+                                                    </div>
+                                                    <div class="payment__content">
+                                                        <h4>Paypal Account</h4>
+                                                        <p>Bank **********5535</p>
+                                                        <span>Verified</span>
+                                                    </div>
+                                                </div>
+                                                <div class="payment__manage">
+                                                    <button>Manage</button>
+                                                </div>
+                                            </div>
+                                            <div class="payment__single__blk">
+                                                <div class="payment__left__blk">
+                                                    <div class="payment__img">
+                                                        <img src="assets-user/img/pay3.png" alt="">
+                                                    </div>
+                                                    <div class="payment__content">
+                                                        <h4>Visa Card</h4>
+                                                        <p>Bank **********5535</p>
+                                                        <span>Verified</span>
+                                                    </div>
+                                                </div>
+                                                <div class="payment__manage">
+                                                    <button>Manage</button>
+                                                </div>
+                                            </div>
+                                            <div class="payment__btn__blk">
+                                                <button>Add Cart</button>
+                                                <button>Add Bank</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab">
+                                        <div class="order__wrap">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">PRODUCT</th>
+                                                        <th scope="col">PRICE</th>
+                                                        <th scope="col">QUANTITY</th>
+                                                        <th scope="col">TOTAL</th>
+                                                        <th scope="col">ACTION</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__quantity">
+                                                                <input type="number" value="1">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__total__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__quantity">
+                                                                <input type="number" value="1">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__total__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__quantity">
+                                                                <input type="number" value="1">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__total__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__quantity">
+                                                                <input type="number" value="1">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__total__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab2">
+                                        <div class="order__wrap">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">PRODUCT</th>
+                                                        <th scope="col">PRICE</th>
+                                                        <th scope="col">ACTION</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__product__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__total__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__total__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="order__product__info">
+                                                                <span><img src="assets-user/img/product1.jpg"
+                                                                        alt=""></span>
+                                                                <h4>Fresh Red Tomatoos</h4>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__total__price">
+                                                                <span>$10.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="order__remove">
+                                                                <span><i class="far fa-times"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="personal__form__btn wishlist__btn">
+                                                <button>Clean Wishlist</button>
+                                                <button>View Cards</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-settings3" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab3">
+                                        <div class="address__wrap">
+                                            <div class="address__main__blk">
+                                                <div class="address__single__blk">
+                                                    <h4>Address-01</h4>
+                                                    <ul>
+                                                        <li><span>Name:</span>Abdullah Al Mamun</li>
+                                                        <li><span>Email:</span>demoemail@gmail.com</li>
+                                                        <li><span>Phone:</span>023 434 54354</li>
+                                                        <li><span>City:</span>Haydarabad, Rord 34</li>
+                                                        <li><span>Zip:</span>3454</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="address__single__blk">
+                                                    <h4>Address-02</h4>
+                                                    <ul>
+                                                        <li><span>Name:</span>Sajjad</li>
+                                                        <li><span>Email:</span>demoemail@gmail.com</li>
+                                                        <li><span>Phone:</span>023 434 54354</li>
+                                                        <li><span>City:</span>Haydarabad, Rord 34</li>
+                                                        <li><span>Zip:</span>3454</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="address__add__btn">
+                                                <button>Add New Address</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-settings4" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab4">
+                                        <div class="review__wrap">
+                                            <div class="review__main__blk">
+                                                <div class="review__single__blk">
+                                                    <div class="review__img__blk">
+                                                        <img src="assets-user/img/review.jpg" alt="">
+                                                    </div>
+                                                    <div class="review__content">
+                                                        <span>July 22, 2022</span>
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                        <h4>Bananas Evidence-Based Health</h4>
+                                                        <p>Didn't I tell you not put your phone on charge because
+                                                            weekend?</p>
+                                                        <a href="#">Edit Review</a>
+                                                    </div>
+                                                </div>
+                                                <div class="review__single__blk">
+                                                    <div class="review__img__blk">
+                                                        <img src="assets-user/img/review.jpg" alt="">
+                                                    </div>
+                                                    <div class="review__content">
+                                                        <span>July 22, 2022</span>
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                        <h4>Bananas Evidence-Based Health</h4>
+                                                        <p>Didn't I tell you not put your phone on charge because
+                                                            weekend?</p>
+                                                        <a href="#">Edit Review</a>
+                                                    </div>
+                                                </div>
+                                                <div class="review__single__blk">
+                                                    <div class="review__img__blk">
+                                                        <img src="assets-user/img/review.jpg" alt="">
+                                                    </div>
+                                                    <div class="review__content">
+                                                        <span>July 22, 2022</span>
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                        <h4>Bananas Evidence-Based Health</h4>
+                                                        <p>Didn't I tell you not put your phone on charge because
+                                                            weekend?</p>
+                                                        <a href="#">Edit Review</a>
+                                                    </div>
+                                                </div>
+                                                <div class="review__single__blk">
+                                                    <div class="review__img__blk">
+                                                        <img src="assets-user/img/review.jpg" alt="">
+                                                    </div>
+                                                    <div class="review__content">
+                                                        <span>July 22, 2022</span>
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                        <h4>Bananas Evidence-Based Health</h4>
+                                                        <p>Didn't I tell you not put your phone on charge because
+                                                            weekend?</p>
+                                                        <a href="#">Edit Review</a>
+                                                    </div>
+                                                </div>
+                                                <div class="review__single__blk">
+                                                    <div class="review__img__blk">
+                                                        <img src="assets-user/img/review.jpg" alt="">
+                                                    </div>
+                                                    <div class="review__content">
+                                                        <span>July 22, 2022</span>
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                        <h4>Bananas Evidence-Based Health</h4>
+                                                        <p>Didn't I tell you not put your phone on charge because
+                                                            weekend?</p>
+                                                        <a href="#">Edit Review</a>
+                                                    </div>
+                                                </div>
+                                                <div class="review__single__blk">
+                                                    <div class="review__img__blk">
+                                                        <img src="assets-user/img/review.jpg" alt="">
+                                                    </div>
+                                                    <div class="review__content">
+                                                        <span>July 22, 2022</span>
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                        <h4>Bananas Evidence-Based Health</h4>
+                                                        <p>Didn't I tell you not put your phone on charge because
+                                                            weekend?</p>
+                                                        <a href="#">Edit Review</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-settings5" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab5">
+                                        <div class="password__wrap">
+                                            <div class="password__main__blk">
+                                                <div class="password__left__blk">
+                                                    <form action="">
+                                                        <div class="password__single__blk">
+                                                            <label for="">Current Password*</label>
+                                                            <input type="password" name="" placeholder="*****">
+                                                        </div>
+                                                        <div class="password__single__blk">
+                                                            <label for="">Password*</label>
+                                                            <input type="password" name="" placeholder="*****">
+                                                        </div>
+                                                        <div class="password__single__blk">
+                                                            <label for=""> Re-enter Password*</label>
+                                                            <input type="password" name="" placeholder="*****">
+                                                        </div>
+                                                        <div class="password__btn__blk">
+                                                            <button>Upldate Password</button>
+                                                            <button>Cancel</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="password__img__blk">
+                                                    <img src="assets-user/img/password.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-settings6" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab6">
+                                        <div class="order__wrap help__wrap">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">NO</th>
+                                                        <th scope="col">TIME</th>
+                                                        <th scope="col">REPORT</th>
+                                                        <th scope="col">ACTION</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="help__serial">
+                                                                <span>#354</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__time">
+                                                                <span>11th Oct, 2023</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__report">
+                                                                <p>Printing and typesetting industry standard dummy text
+                                                                    ever since</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__action">
+                                                                <span><i class="fas fa-comment-dots"></i></span>
+                                                                <span><i class="fas fa-trash-alt"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="help__serial">
+                                                                <span>#355</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__time">
+                                                                <span>11th Oct, 2023</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__report">
+                                                                <p>Printing and typesetting industry standard dummy text
+                                                                    ever since</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__action">
+                                                                <span><i class="fas fa-comment-dots"></i></span>
+                                                                <span><i class="fas fa-trash-alt"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="help__serial">
+                                                                <span>#356</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__time">
+                                                                <span>11th Oct, 2023</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__report">
+                                                                <p>Printing and typesetting industry standard dummy text
+                                                                    ever since</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__action">
+                                                                <span><i class="fas fa-comment-dots"></i></span>
+                                                                <span><i class="fas fa-trash-alt"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="help__serial">
+                                                                <span>#357</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__time">
+                                                                <span>11th Oct, 2023</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__report">
+                                                                <p>Printing and typesetting industry standard dummy text
+                                                                    ever since</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__action">
+                                                                <span><i class="fas fa-comment-dots"></i></span>
+                                                                <span><i class="fas fa-trash-alt"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="help__serial">
+                                                                <span>#358</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__time">
+                                                                <span>11th Oct, 2023</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__report">
+                                                                <p>Printing and typesetting industry standard dummy text
+                                                                    ever since</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__action">
+                                                                <span><i class="fas fa-comment-dots"></i></span>
+                                                                <span><i class="fas fa-trash-alt"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="help__serial">
+                                                                <span>#359</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__time">
+                                                                <span>11th Oct, 2023</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__report">
+                                                                <p>Printing and typesetting industry standard dummy text
+                                                                    ever since</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="help__action">
+                                                                <span><i class="fas fa-comment-dots"></i></span>
+                                                                <span><i class="fas fa-trash-alt"></i></span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Dashboard area end --------->
+
+    </main>
+    <!--------- Main area end --------->
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="assets-user/js/jquery.min.js"></script>
+    <script src="assets-user/js/bootstrap.min.js"></script>
+    <script src="assets-user/js/popper.js"></script>
+    <script src="assets-user/js/jquery.nice-number.min.js"></script>
+    <script src="assets-user/js/main.js"></script>
+
+</body>
+
+</html>
